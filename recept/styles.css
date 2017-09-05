@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h1{
+font size:35px;
+color: white;
+background-color: #404040;
+}
+
+h2{
+margin-top: 10px;
+font size: 35px;
+color: black;
+}
+
+body{
+  text-align: center;
+  background-image: url("imf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ul{
+  list-style-type: none;
+}
+
+img{
+  width: 400px;
+  height: 350px;
+  margin: 5px;
+}
+
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
