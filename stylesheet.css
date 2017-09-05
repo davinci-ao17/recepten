@@ -1,0 +1,85 @@
+html, body{
+  margin:0px;
+  padding:0px;
+  height: 100%;
+  background: url("background.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: #E47915;
+    clear: left;
+    text-align: center;
+    height: 25%;
+}
+h4{
+  margin: 5px;
+  padding:0;
+}
+nav {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a {
+    text-decoration: none;
+}
+section{
+  text-align: center;
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 10px;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 10px;
+    height: auto;
+    color: #222120;
+}
+ul.topnav li a {
+    background-color: #C45138;
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #AD6C07;}
+
+ul.topnav li a.active {background-color: green;}
+#personen{
+  font-size: 12px;
+}
+#pilav{
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 150px;
+  margin-top: 50px;
+}
+#kok{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 268,2px;
+  height: 360px;
+}
+#ingred{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 579px;
+  height: 150px;
+}
+h3{
+  margin-left: 25px;
+}
