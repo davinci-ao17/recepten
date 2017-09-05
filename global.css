@@ -43,5 +43,22 @@ li a {
 }
 
 li a:hover {
-    background-color: white;
+    background-color: black;
+}
+
+article {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pittig {
+  position: absolute; top: 160px; left: 600px;
+  }
+
+.cheese {
+  position: absolute; top: 100px; left: 600px;
+}
+
+.stroganoff {
+  position: absolute; top: 120px; left: 600px;
 }
