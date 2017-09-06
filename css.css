@@ -1,0 +1,31 @@
+body{
+    margin: 5% 7%;
+    background-color:#A07429;   
+        
+}
+
+main{
+    padding:10%;
+    overflow: hidden;
+    background-color: #F2C473;
+    border: 2px solid  black;
+    border-radius: 80px;
+}
+.row{
+    height: 25%;
+}
+.item{
+    margin-left: 10%;
+    float: left;
+    width: 20%;
+    background: #543E18;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+img.itemimg{
+    width: 90%;
+    margin: 5%;
+}
