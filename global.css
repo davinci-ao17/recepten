@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-li {
+.float {
   list-style: none;
   float: left;
 }
@@ -47,12 +47,11 @@ li a:hover {
 }
 
 article {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 16px;
 }
 
 .pittig {
-  position: absolute; top: 160px; left: 600px;
+  position: absolute; top: 250px; left: 600px;
   }
 
 .cheese {
