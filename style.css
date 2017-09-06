@@ -6,7 +6,7 @@ body{
 #bovenbalk {
   margin: 0px -8px;
   padding: auto;
-  width: 1920px;
+  width: 101%;
   height: 40px;
   background-color: #006666;
 }
@@ -38,10 +38,7 @@ body{
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.5;
-}
-#tekstbox {
-  
+  opacity: 0.7;
 }
 
 
@@ -56,8 +53,32 @@ body{
   padding: 5px;
 }
 
+#stappen{
+  height: auto;
+  width: 914px;
+  background-color: #006666;
+  float: right;
+  margin-right: 200px;
+  margin-top: -341px;
+  border-top: 3px solid #00e6e6;
+
+}
+
+#tip {
+  height: auto;
+  width: 904px;
+  background-color: #006666;
+  float: right;
+  margin-right: 200px;
+  margin-top: -108px;
+  border-top: 3px solid #00e6e6;
+  padding: 5px;
+}
+
+
+
 h1 {
-  color: #66ffff;
+  color: #e6ffff;
   width: 500px;
   margin-left: 100px;
   padding: 8px;
@@ -71,7 +92,7 @@ h1 {
 }
 
 h2 {
-  color: #66ffff;
+  color: #e6ffff;
   width: 100px;
   padding: 3px;
   text-align: left;
@@ -98,7 +119,7 @@ h3 {
 }
 
 p {
-  color: #66ffff;
+  color: #e6ffff;
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -108,10 +129,11 @@ p {
 }
 #tekstover {
   color: #000000;
+  font-weight: bold;
 }
 
 ul {
-  color: #66ffff;
+  color: #e6ffff;
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -121,8 +143,20 @@ ul {
   margin-left: -20px;
 }
 
+ol {
+  color: #e6ffff;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  margin-left: -15px;
+  margin-right: 5px;
+}
+
 a {
-  color: #66ffff;
+  color: #e6ffff;
 }
 
 #tijdvermelding {
