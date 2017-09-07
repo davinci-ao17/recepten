@@ -12,10 +12,10 @@ html, body {
 
 div.recipeInfo {
 	position: absolute;
-   	top: 30%;
+   	top: 25%;
    	left: 10%;
-   	padding: 10px;
-   	padding-right: 40px;
+   	padding: 20px;
+   	padding-right: 50px;
   	background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -40,4 +40,36 @@ div.divRight {
 	position: relative;
 	float: right;
 	margin-right: 50%;
+}
+
+.printButton {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+    margin: -14% 2% 0% 10%;
+}
+
+.printButton:hover {
+	background-color: darkslategrey;
+	color: white;
+}
+
+.iText {
+	margin-top: 2%;
+}
+
+@media print {
+	div.recipeInfo {
+		margin-top: -10%;
+	}
+
+	div.divRight {
+		left: 15%;
+		margin-top: -28.5%;
+	}
 }
