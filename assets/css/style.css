@@ -3,7 +3,7 @@ img.topHeader {
 	width: 100%;
 }
 
-html, body {
+html, body, footer {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
@@ -20,7 +20,8 @@ div.recipeInfo {
 }
 
 #homeBanner {
-	position: relative; 
+	position: relative;
+	top: 10px;
 }
 
 .recipeTitle {
@@ -63,6 +64,21 @@ div.divRight {
 	margin-top: 2%;
 }
 
+footer {
+	background-color: lightgrey;
+	width: 100%;
+	height: 50px;
+	margin-top: 30%;
+	overflow: hidden;
+}
+
+p.footerCredits {
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
 @media print {
 	div.recipeInfo {
 		margin-top: -10%;
@@ -70,6 +86,6 @@ div.divRight {
 
 	div.divRight {
 		left: 15%;
-		margin-top: -28.5%;
+		margin-top: -41%;
 	}
 }
