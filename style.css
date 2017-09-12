@@ -18,9 +18,10 @@ img.img-header {
 div.main-text {
 	font-size: 30px;
 	text-align: center;
+	color: white;
 	position: absolute;
 	line-height: 20px;
-	right: 220px;
+	right: 250px;
 	top:540px;
 	font-family: "Source Sans Pro Semibold", Source, serif;
 	overflow-x: hidden;
