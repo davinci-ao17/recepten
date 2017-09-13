@@ -32,3 +32,9 @@ p.piclink img{
 p.hoe {
  line-height: 0;
 }
+h4.meer {
+  float: right;
+  margin-right: 50px;
+  margin-top: 49px;
+  font-size: 30px
+}
