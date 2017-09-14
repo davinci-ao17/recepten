@@ -17,6 +17,7 @@ div.recipeInfo {
    	padding: 20px;
    	padding-right: 50px;
   	background-color: rgba(255, 255, 255, 0.7);
+  	margin-top: -2%;
 }
 
 #homeBanner {
@@ -40,7 +41,7 @@ div.divLeft {
 div.divRight {
 	position: relative;
 	float: right;
-	margin-right: 50%;
+	margin-right: 25%;
 }
 
 .printButton {
@@ -52,7 +53,7 @@ div.divRight {
     text-align: center;
     font-size: 16px;
     float: right;
-    margin: -14% 2% 0% 10%;
+    margin: -22% 2% 0% 10%;
 }
 
 .printButton:hover {
