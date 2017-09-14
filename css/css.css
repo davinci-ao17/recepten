@@ -1,0 +1,49 @@
+body{ 
+    font-family: sans-serif;
+    background: url(../media/bg.jpg);
+    background-color: purple;    
+    background-repeat: none;
+    color: white;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+header{
+    
+	margin-top: 0%;
+    text-align: center;
+}
+
+.header{
+    font-size: 450%;
+}
+
+#mainblock{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
+    margin-top: 20%;
+    border-radius: 50px;
+    min-height: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding-bottom: 5%;
+    text-align: center;  
+    overflow: hidden;
+}
+
+ul{
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+p{
+    font-size: 100%;
+}
