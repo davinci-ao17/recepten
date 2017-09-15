@@ -1,0 +1,81 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: url("../Assets/Images/wallpaperGerechten.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow:hidden;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.hoverItem:hover {
+    padding:0;
+    box-shadow: 0 5px 64px rgba(0, 0, 0, 0.92);
+}
+
+.hoverItem:before {
+    padding:0;
+    box-shadow: 0 5px 64px rgba(0, 0, 0, 0.92);
+}
+
+.modal-galary{
+    clear:both;
+}
+
+img {
+    display: table;
+}
+
+li{
+    display: list-item;
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+.modal-xl {
+    width: 80%;
+    max-width:100%;
+}
+
+.headerTitle{
+    color: white;
+    text-shadow: 3px 3px rgba(0,0,0,1);
+    font-size:70px;
+    margin-top:10%;
+}
+
+.smallImg {
+    margin-top:5px;
+}
+
+.modal-footer{
+    margin-top: 34%;
+}
+
+.part1{
+    background-color:white;
+    max-height:60vh !important;
+    min-height:60vh !important;
+}
+
+.part2{
+    background-color:rgba(0,0,0,0.4);
+}
+
+.row{
+    max-height:40vh;
+    min-height:40vh;
+}
