@@ -9,11 +9,10 @@
 </head>
 <body>
 
-    <div id="mainblock">
          <main>
             <h1>chocoladetaart met banaan!</h1>
             <p>hier kan je zien hoe je een heerlijke chocoladetaart met banaan kan maken!
-            <br/> lees alles eerst even door en ga dan lekker aan de slag!</p>
+            <br> lees alles eerst even door en ga dan lekker aan de slag!</p>
             <details>
                 <summary>Ingredienten</summary>
                 <h4>stap 1</h4>
@@ -91,9 +90,10 @@
                     </li>
                 </ol>
                 <h5>Garneer de taart eventueel met een paar plakjes banaan.</h5>
+                <img src="media/banaan.jpg" alt="banaan">
             </details>
             <p> en zo maak je een prachtige, heerlijke chocoladetaart!</p>
         </main>
-    </div>
+    
 </body>
 </html>                         
