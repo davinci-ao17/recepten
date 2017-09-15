@@ -4,50 +4,31 @@ body {
     font-family: "Arial"
 }
 
-h1 {
-	text-align: center;
-}
-
-td {
-	text-align: center;
-}
-
-h3 {
-	text-align: left;
-}
-
 h2.bereidentitel {
-	text-align: center;
 	size: 100%;
 }
 
-p.lijst {
-	text-align: center;
-	background-color: #ffff99;
-}
 
 img.biet {
 	margin: center;
-	box-shadow: 0 4% 8% 0 rgba(0, 0, 0, 0.2), 0 6% 20% 0 rgba(0, 0, 0, 0.19);
 	width: 100%;
 	height: 100%;
 }
 
-h2.ingredient {
-	text-align: left;
-}
-
 tr {
-	text-align: center;
 	background-color: #ffff99;
-	box-shadow: 0 4% 8% 0 rgba(0, 0, 0, 0.2), 0 6% 20% 0 rgba(0, 0, 0, 0.19);
-}
-
-td {
-	text-align: center;
-	margin-right: 1%;
 }
 
 p.groot {
 	font-size: 100px;
+}
+
+.lijstje {
+	background-color: #ffff99;
+	text-align: center;
+	margin-left: 20px;
+}
+
+table {
+	align-self: center;
 }
