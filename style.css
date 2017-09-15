@@ -1,0 +1,313 @@
+* {
+	padding:0px;
+	margin:0px;
+	animation: 1 3s;
+}
+@keyframes 1 {
+	0% {
+		background-color:#000;
+	}
+	100% {
+		background-color:#fff;
+	}
+}
+body {
+	background-color:#fff;
+	color:#000;
+	font-family: arial;
+	background-image: url(https://cdn.pixabay.com/photo/2015/09/16/20/10/pancakes-943246_960_720.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+hr {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#menu {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#0B3861 ;
+	border-bottom:3px solid #000;
+	float: left;
+	z-index: 100;
+	font-family: arial;
+	opacity: 0.8;
+}
+
+#menu ul {
+	margin-right:3%;
+	opacity: 1;
+}
+#menu li {
+	display:inline-block;
+	position:center;
+	float:right;
+	
+}
+#menu li a {
+	text-decoration:none;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	display:block;
+	padding:17.5px;
+	transition:4s ease-in-out;
+}
+#menu li a:hover {
+	color:#0B3861;
+	background-color:#fff;
+	margin:#fff;
+	padding:0,10px;
+	transition:2s ease-in-out;
+	text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+	#tekstvak {
+		margin-top:70%;
+		width:100%;
+		font-size:22px;
+		color:#000;
+		background-color:#fff;
+		padding:1.5%;
+		font-family:Arial, Helvetica, sans-serif;
+		margin-bottom:7%;
+		transition:2s ease-in-out;
+	}
+}
+@media screen and (min-width: 1200px) {
+#tekstvak {
+	margin-top:875px;
+	width:98,5%;
+	font-size:22px;
+	color:#000;
+	background-color:#fff;
+	padding:1.5%;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:3%;
+}
+}
+@media screen and (max-width: 1200px) {
+	#tekstvak  #img2{
+			width:100%;
+			height:500px;
+			transition:0.7s ease-in-out;
+
+		}
+	#tekstvak  #img2:hover{
+	width:100%;
+	height:600px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	#tekstvak  #img2{
+		width:50%;
+		height:400px;
+		margin-left: 25%;
+		margin-right: 25%;
+		transition:0.7s ease-in-out;
+	}
+	#tekstvak  #img2:hover{
+		width:60%;
+		height:500px;
+		margin-left: 20%;
+		margin-right: 20%;
+		transition:0.7s ease-in-out;
+	}
+}
+
+#tekstvak .titel {
+	font-size:40px;
+	color:#0B3861;
+	 text-align: center;
+	animation:titel 4s;
+	font-weight:bold;
+
+}
+@keyframes titel {
+	0% {
+		font-size:0px;
+	
+	}
+	100% {
+		font-size:40px;
+		 text-align: center;
+	}
+}
+@media screen and (max-width: 1200px) {
+		#button {
+			background-color:#0B3861;
+		}
+}
+@media screen and (min-width: 1200px) {
+		#buttonvak {
+			margin-left: 45%;
+		}
+		.button{
+			background-color:#0B3861;
+			color: #fff;
+			width: 5%;
+			height: 50px;
+			border: 3px solid #000;
+			transition:1s ease-in-out;
+		}
+		.button:hover {
+			background-color:#fff;
+			color: #0B3861;
+			width: 5%;
+			height: 50px;
+			border: 3px solid #000;
+			transition:1s ease-in-out;
+		}
+}
+@media screen and (max-width: 1200px) {
+#tekstvak .kop {
+	font-size:32.5px;
+	color:#0B3861;
+	font-weight:bold;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#tekstvak .kop1 {
+	font-size:35px;
+	color:#0B3861;
+	margin-top:1.5%;
+	margin-bottom:0.5%;
+	padding-left: 15%;
+	padding-right: 10%;
+	font-weight:bold;
+}
+#tekstvak .kop2 {
+	font-size:30px;
+	color:#0B3861;
+	margin-top:1.25%;
+	margin-bottom:0.25%;
+	font-weight:bold;
+	padding-left: 15%;
+	padding-right: 10%;
+}
+#tekstvak .intro {
+	font-size:22.5px;
+	margin-top:1%;
+	margin-bottom: 1%;
+	padding-left: 2.5%;
+	padding-right: 5%;
+}
+#tekstvak .tekst {
+	font-size:22.5px;
+	animation:tekst-animation 6s;
+	width:100%;
+	transition:1s ease-in-out;
+}
+#tekstvak  .vaktekst{
+	width:65%;
+	padding-left: 15%;
+	padding-right: 5%;
+}
+#tekstvak ul {
+	padding:1.5%;
+}
+}
+@media screen and (min-width: 1200px) {
+#tekstvak .kop {
+	font-size:32.5px;
+	color:#0B3861;
+	font-weight:bold;
+}
+#tekstvak .kop1 {
+	font-size:27px;
+	color:#0B3861;
+	margin-top:1.5%;
+	margin-bottom:0.5%;
+	font-weight:bold;
+}
+#tekstvak .kop2 {
+	font-size:23,5px;
+	color:#0B3861;
+	margin-top:1.25%;
+	margin-bottom:0.25%;
+	font-weight:bold;
+}
+#tekstvak .intro {
+	font-size:20px;
+	margin-top:1%;
+	margin-bottom: 1%;
+}
+#tekstvak .tekst {
+	font-size:20px;
+	animation:tekst-animation 6s;
+	width:100%;
+	}
+#tekstvak  .vaktekst{
+	width:65%;
+}
+#tekstvak ul {
+	padding:1.5%;
+}
+}'
+@keyframes tekst-animation {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+#img {
+	width:100%;
+	height:700px;
+	margin-top:63px;
+ text-align: center;
+	float: left;
+}
+
+#filmpie {
+	width: 800px;
+	height: 400px;
+	margin-top:1.5%;
+	animation: filmpie 5s;
+	transition:0.7s ease-in-out;
+}
+#filmpie:hover {
+	transition:0.7s ease-in-out;
+}
+@media screen and (max-width: 1200px) {
+		#filmpie {
+			width: 100%;
+			height: 500px;
+			margin-top:1.5%;
+			animation: filmpie 5s;
+		}
+}
+@keyframes filmpie{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#footer {
+	padding:0.75%;
+	width: 100%;
+	background-color:#0B3861 ;
+	color: #fff;
+	bottom: 0%;
+	left: 0%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: fixed;
+	border-top:3px solid #000;
+	font-family: arial;
+}
+#footer a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	transition:0.7s ease-in-out;
+}
+#footer a:hover {
+	color: #111;
+}
