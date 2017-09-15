@@ -23,3 +23,8 @@ p.groot {
 	text-align: center;
 	margin-left: 20px;
 }
+
+span.lijst {
+	display: block;
+	height: 100;
+}
