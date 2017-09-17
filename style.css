@@ -1,0 +1,32 @@
+body{
+	background-color: #eeeeee;
+}
+
+div {
+	border: 5px solid black;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	background-color: white;
+	padding-left: 240px;
+	padding-right: 240px;
+}
+
+h1, h4, h5, p {
+	text-align: center;
+	font-style: italic;
+}
+
+a {
+	color: limegreen;	
+}
+
+ol, ul {
+	font-style: italic;
+}
+
+img {
+	height: 400px;
+	width: 600px;
+}
