@@ -51,13 +51,18 @@ article {
 }
 
 .pittig {
-  position: absolute; top: 250px; left: 600px;
+  position: absolute; top: 170px; left: 600px;
   }
 
 .cheese {
   position: absolute; top: 100px; left: 600px;
+    padding-top: 40px;
 }
 
 .stroganoff {
-  position: absolute; top: 120px; left: 600px;
+  position: absolute; top: 130px; left: 600px;
+}
+
+.paddingdown {
+    padding-top: 40px;
 }
