@@ -3,11 +3,12 @@ img.topHeader {
 	width: 100%;
 }
 
-html, body, footer {
+html, body, footer, span {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
 	color: rgb(33, 33, 33);
+	font-family: cursive;
 }
 
 div.recipeInfo {
@@ -53,7 +54,7 @@ div.divRight {
     text-align: center;
     font-size: 16px;
     float: right;
-    margin: -22% 2% 0% 10%;
+    margin: -33% 1% 0% 25%;
 }
 
 .printButton:hover {
