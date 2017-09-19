@@ -21,12 +21,27 @@ body {
  }
 
 .roti {
-	background-color: rgba(255,255,255, 0.7);
+	background-color: rgba(255,255,255, 0.9);
 	width: 80%;
 	margin-left: 10%;
 	margin-right:10%;
 	font-size: 22px;
-	padding: 10px; 
+	padding: 20px;
 	border: 5px solid #000;
 	background-image: no-repeat;
 } 
+
+#kopje {
+	font-weight: bold; 
+	font-size: 40px;
+}
+
+a {
+	color: #1000ff;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #ffb600;
+}
