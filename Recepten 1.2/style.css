@@ -245,6 +245,9 @@ hr {
 #tekstvak ul {
 	padding:1.5%;
 }
+#tekstvak ol {
+	padding:2%;
+}
 }'
 @keyframes tekst-animation {
 	0% {
