@@ -3,6 +3,9 @@ Voor deze opdracht ga je een webpagina maken met drie recepten voor een gerecht.
 
 De opdracht bestaat wederom uit twee type eisen, functionele eisen en technische eisen. Je moet aan alle deze eisen voldoen!
 
+### Definitie
+Ga op zoek naar informatie over "inline elementen" (zoek op internet, vind de definitie en een voorbeeld); praat hierover met je docent of een medestudent. (extra zoektermen: css display inline block)
+
 ### Functionele eisen
 Functionele eisen beschrijven welke functionaliteit je eindproduct moet bevatten. Functionele eisen mogen nooit van technische aard zijn! Ieder persoon moet begrijpen welke functionaliteit de opdracht moet bevatten, ongeacht kennis niveau.
 
