@@ -1,5 +1,5 @@
 ## Recepten
-Voor deze opdracht ga je een webpagina maken met een recept voor een gerecht. Welk gerecht je gaat beschrijven bepaal je samen met je opdrachtgever (docent).
+Voor deze opdracht ga je een webpagina maken met drie recepten voor een gerecht. Welk gerechten je gaat beschrijven bepaal je samen met je opdrachtgever (docent).
 
 De opdracht bestaat wederom uit twee type eisen, functionele eisen en technische eisen. Je moet aan alle deze eisen voldoen!
 
@@ -7,6 +7,7 @@ De opdracht bestaat wederom uit twee type eisen, functionele eisen en technische
 Functionele eisen beschrijven welke functionaliteit je eindproduct moet bevatten. Functionele eisen mogen nooit van technische aard zijn! Ieder persoon moet begrijpen welke functionaliteit de opdracht moet bevatten, ongeacht kennis niveau.
 
 Recepten moet aan de volgende functionele eisen voldoen:
+* Je maakt drie pagina's met elk een recept.
 * De pagina bevat een algemene introductie over het gerecht. Bijvoorbeeld uit welk land het gerecht komt.
 * De pagina bevat een overzicht met daarin de bereidingstijd en voor hoeveel personen het gerecht is. 
 * De pagina bevat een lijst met alle benodigde ingrediënten.
@@ -21,12 +22,13 @@ Recepten moet aan de volgende technische eisen voldoen:
 * Het document is geschreven in HTML5
 * Het document bevat het correcte doctype 
 * Het document bestaat uit een head en body
+* Je gebruikt 1 stylesheet die op alle drie de pagina's gebruikt wordt.
 * Het document heeft een title
 * Het document bevat koppen, paragrafen, lijsten, afbeeldingen en links
 * Het document valideert als correct HTML5, [http://validator.w3.org/](http://validator.w3.org/)
 
-### Bonus
-Probeer je pagina te stijlen met CSS!
+### Excellente studenten
+* Zorg dat je een nieuwe layout maakt voor csszengarden.com door dit [html bestand](http://www.csszengarden.com/examples/index) te stylen met een aangepaste [stylesheet](http://www.csszengarden.com/examples/style.css).
 
 ### Bronnen
 #### HTML & CSS
