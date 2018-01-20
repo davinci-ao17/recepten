@@ -1,0 +1,44 @@
+li {
+  border-left: 5px solid blue;
+  color: blue;
+  font-family: 'Alegreya', serif;
+  font-size: 16px;
+}
+body {
+  background-color: #ffcc33;
+}
+p {
+  color: blue;
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+}
+h1,h2,h3,h4 {
+  color: darkblue;
+  margin-top: 50px;
+  font-family: 'Princess Sofia', cursive;
+  text-shadow: 3px 2px #b38f00;
+}
+div.recept {
+  background-color: #e6ac00;
+}
+img.spa {
+  margin: 20px;
+  margin-right: 100px;
+  margin-top: 125px;
+}
+p.piclink img{
+ margin-right: 50px;
+}
+p.hoe {
+ line-height: 0;
+}
+h4.meer {
+  float: right;
+  margin-right: 50px;
+  margin-top: 49px;
+  font-size: 30px
+}
+div.intro {
+  margin: auto;
+  width: 750px;
+}
