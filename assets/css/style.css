@@ -1,0 +1,93 @@
+img.topHeader {
+	text-align: center;
+	width: 100%;
+}
+
+html, body, footer, span {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	color: rgb(33, 33, 33);
+	font-family: cursive;
+}
+
+div.recipeInfo {
+	position: absolute;
+   	top: 25%;
+   	left: 10%;
+   	padding: 20px;
+   	padding-right: 50px;
+  	background-color: rgba(255, 255, 255, 0.7);
+  	margin-top: -2%;
+}
+
+#homeBanner {
+	position: relative;
+	top: 10px;
+}
+
+.recipeTitle {
+	margin-left: 10%;
+}
+
+div.recipeInfoPanel {
+	position: relative;
+}
+
+div.divLeft {
+	position: relative;
+	float: left;
+}
+
+div.divRight {
+	position: relative;
+	float: right;
+	margin-right: 25%;
+}
+
+.printButton {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+    margin: -33% 1% 0% 25%;
+}
+
+.printButton:hover {
+	background-color: darkslategrey;
+	color: white;
+}
+
+.iText {
+	margin-top: 2%;
+}
+
+footer {
+	background-color: lightgrey;
+	width: 100%;
+	height: 50px;
+	margin-top: 30%;
+	overflow: hidden;
+}
+
+p.footerCredits {
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+@media print {
+	div.recipeInfo {
+		margin-top: -10%;
+	}
+
+	div.divRight {
+		left: 15%;
+		margin-top: -41%;
+	}
+}
