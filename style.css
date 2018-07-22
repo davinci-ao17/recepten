@@ -1,0 +1,172 @@
+body{
+  background-color: #00b3b3;
+  overflow: hidden;
+}
+
+#bovenbalk {
+  margin: 0px -8px;
+  padding: auto;
+  width: 101%;
+  height: 40px;
+  background-color: #006666;
+
+}
+
+.borderfix{
+  border-top: 2px solid #008080;
+  width: 215px;
+    margin-left: 100px;
+}
+#infogerecht {
+  height: auto;
+  width: 200px;
+  background-color: #006666;
+  border-left: 5px solid #00e6e6;
+  padding: 5px;
+}
+
+#overtacos {
+  height: 200px;
+  width: 914px;
+  background-image: url("taco.jpg");
+  float: right;
+  margin-right: 200px;
+  margin-top: -200px;
+}
+#transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+#ingredienten {
+  padding: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
+  height: auto;
+  width: 200px;
+  background-color: #006666;
+  border-left: 5px solid #00e6e6;
+  padding: 5px;
+}
+
+#stappen{
+  height: auto;
+  width: 914px;
+  background-color: #006666;
+  float: right;
+  margin-right: 200px;
+  margin-top: -341px;
+  border-top: 3px solid #00e6e6;
+
+}
+
+#tacoresult {
+  margin-top: -20px;
+  width:auto;
+  height:200px;
+  float: right;
+}
+
+#tip {
+  height: auto;
+  width: 904px;
+  background-color: #006666;
+  float: right;
+  margin-right: 200px;
+  margin-top: -65px;
+  border-top: 3px solid #00e6e6;
+  padding: 5px;
+}
+
+
+
+h1 {
+  color: #e6ffff;
+  width: 500px;
+  margin-left: 100px;
+  padding: 8px;
+  text-align: left;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+h2 {
+  color: #e6ffff;
+  width: 100px;
+  padding: 3px;
+  text-align: left;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+h3 {
+  color: #000000;
+  width: 850px;
+  padding: auto;
+  margin: auto;
+  text-align: left;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 20px;
+
+}
+
+p {
+  color: #e6ffff;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+#tekstover {
+  font-weight: bold;
+  color:black;
+  padding-left: 5px;
+}
+
+ul {
+  color: #e6ffff;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  margin-left: -20px;
+}
+
+ol {
+  color: #e6ffff;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  margin-left: -15px;
+  margin-right: 5px;
+  width: 612px;
+}
+
+a {
+  color: #e6ffff;
+}
+
+#tijdvermelding {
+  font-size: 10px;
+}
