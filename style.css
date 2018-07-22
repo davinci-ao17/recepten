@@ -1,0 +1,40 @@
+body {
+	font-style: Arial;
+	background-color: #add8e6;
+}
+
+#left{
+	width: 250px;
+	float: left;
+		
+}
+
+#right{
+	width: 400px;
+	margin: 0 auto;
+	
+}
+
+#right2{
+	width: 400px;
+	margin: 0 auto;
+	
+}
+
+#right3{
+	width: 400px;
+	margin: 0 auto;
+}
+#foto{
+	float: right;
+	
+}
+
+#fotolinks{
+	width: 250px;
+	float: left;
+}
+
+#koken{
+	float: right;
+}
