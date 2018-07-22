@@ -1,0 +1,140 @@
+body {
+	background-color: #fafafa;
+	margin: 0;
+	padding: 0;
+}
+main {
+	width: 70%;
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+header {
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+	width: auto;
+}
+header img {
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+}
+.title {
+	margin: 0;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	color: white; 
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.subtitle {
+	font-size: 16px;
+}
+.left {
+	float: left;
+	width: 25%;
+}
+.right {
+	float: right;
+	width: 75%;
+}
+.list {
+	padding-left: 0px;
+	margin: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.list-item {
+	position: relative;
+	display: block;
+	padding: 5px 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: -1px;
+}
+.list-item.active {
+	background-color: #ddd;
+	font-weight: 5000;
+}
+.list-item.active h4 {
+	margin: 0px;
+}
+.list-item:first-child {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.list-item:last-child {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.box {
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.box-head {
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    background-color: #ddd;
+	overflow: auto
+}
+#box-head-text {
+	float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7.5px;
+}
+.box-head-button-group {
+	float: right;
+}
+.box-head-button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.box-body {
+	padding: 10px;
+}
+.box-text {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif
+}
+.order-list {
+	margin: 0;
+	padding-left: 20px;
+}
+table {
+	border-collapse: collapse;
+	font-size: 14px;
+	font-family: 'Lora', serif;
+}
+table td, table td {
+	border: 1px solid #ddd;
+}
+table tr:first-child td {
+	border-top: 0;
+}
+table tr:last-child td {
+	border-bottom: 0;
+}
+table tr td:first-child {
+	border-left: 0;
+}
+table tr td:last-child {
+	 border-right: 0;
+}
+td {
+	padding: 5px;
+	text-align: center;    
+}
